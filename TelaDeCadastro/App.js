@@ -21,7 +21,7 @@ const cadastro = () => {
 
        <TextInput placeholder="Nome..." style={styles.TextInput} onChangeText={text=>setNome(text)} />
        <TextInput placeholder="E-mail..." style={styles.TextInput} onChangeText={text=>setEmail(text)}/>
-       <TextInput secureTextEntry={true} placeholder="Senha..." style={styles.TextInput} onChangeText={text=>setSenha(text)}/>
+       <TextInput secureTextEntry={true} placeholder="Senha..." style={styles.TextInput} onChangeText={text=>setSenha(text)} />
 
        <TouchableOpacity style={styles.btnCadastro} onPress={()=> cadastro()}>
           <Text styles={{color:'white',textalign:'center'}}>CADASTRAR</Text>
